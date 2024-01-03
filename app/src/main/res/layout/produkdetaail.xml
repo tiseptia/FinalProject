@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Produkdetaail"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/contoh"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="20dp"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Produk"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        tools:ignore="smallSp"
+        android:text="Deskripsi Produk"
+        android:layout_marginBottom="20dp"></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Whatsapp"
+        android:background="@color/hijau"
+        android:textColor="@color/black"></Button>
+
+
+</LinearLayout>
